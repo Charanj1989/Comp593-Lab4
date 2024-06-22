@@ -22,7 +22,7 @@ def main():
     extracted_df.to_csv('data.csv', index=False)
 
     pass
-    return
+    
 
 def get_file_path_from_cmd_line(param_num=1):
     """Gets a file path from a command line parameter.
