@@ -1,15 +1,40 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
+    
     "configurations": [
+
+
+
         {
-            "name": "Python Debugger: Current File",
+            "name": "CORRECT FILE",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": ["C:\\Users\\chara\\OneDrive\\Desktop\\Github files\\Comp593-Lab4\\gateway.log"]
+        },
+
+        
+        {
+            "name": "EMPTY FILE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [""]
+        },
+
+
+
+        {
+            "name": "INCORRECT FILE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["C:\\Users\\chara\\OneDrive\\Desktop\\Github files\\Comp593-Lab4\\GATE_WAY.LOG"]
         }
+
+       
+
     ]
 }
